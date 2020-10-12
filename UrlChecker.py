@@ -28,7 +28,8 @@ start = time.time()
 
 def UrlCheck(url):
     try:
-        res = req.get(url, timeout=5, verify=False, )
+        header = ('User-Agent','Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36 Edg/84.0.522.63')
+        res = req.get(url, timeout=5, verify=False,headers=header)
         # TODO：爬取标题
         res.encoding = 'utf-8'
         # 解析内容的html节点对象，可直接获取内容
