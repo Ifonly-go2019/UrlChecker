@@ -14,3 +14,7 @@ this is a tool to detect the Web service is ok or not
 - Output results
 - Count the number of OK
 - colorful terminal strings 😂
+
+MyBlog:
+
+https://hack-for.fun/
