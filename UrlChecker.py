@@ -21,7 +21,7 @@ logo = '''
 
 
 print(logo + "author: m0nk3y")
-print("Usage: python3 UrlCheck.py  url_file.txt out_file.txt")
+print("Usage: python3 UrlChecker.py  url_file.txt ")
 # 处理未知的127.0.0.1 告警
 warnings.filterwarnings('ignore')
 start = time.time()
