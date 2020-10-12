@@ -8,8 +8,19 @@ from bs4 import BeautifulSoup
 
 # TODO://导出到表格
 import csv
+logo = '''
+
+ ____ ___        .__  _________ .__                   __                 
+|    |   \_______|  | \_   ___ \|  |__   ____   ____ |  | __ ___________ 
+|    |   /\_  __ \  | /    \  \/|  |  \_/ __ \_/ ___\|  |/ // __ \_  __ 
+|    |  /  |  | \/  |_\     \___|   Y  \  ___/\  \___|    <\  ___/|  | \/
+|______/   |__|  |____/\______  /___|  /\___  >\___  >__|_ \___  >__|   
+                              \/     \/     \/     \/     \/    \/       
+
+'''
 
 
+print(logo + "author: m0nk3y")
 print("Usage: python3 UrlCheck.py  url_file.txt out_file.txt")
 # 处理未知的127.0.0.1 告警
 warnings.filterwarnings('ignore')
