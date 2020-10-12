@@ -1,0 +1,6 @@
+requests
+sys
+warnings
+time
+threading
+bs4
