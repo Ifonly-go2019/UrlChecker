@@ -1,5 +1,6 @@
 # UrlChecker
 this is a tool to detect the Web service is ok or not
+写这个小jio本的目的是，在大量子域名或者URL的情况下，不想人为去点每个URL去判断系统正常。虽然有很多大型扫描器有这个功能，比如Xray 的html 导出，但是我就是想写一下。后面慢慢加功能。
 ## Base on http response status code
 
 200、404、403、500、405
@@ -15,6 +16,6 @@ this is a tool to detect the Web service is ok or not
 - Count the number of OK
 - colorful terminal strings 😂
 
-MyBlog:
+## questions & contact 
 
 https://hack-for.fun/
