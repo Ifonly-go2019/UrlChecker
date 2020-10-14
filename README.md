@@ -18,6 +18,8 @@
 
 ## Multithreading
 
+**有个问题就是，这里是每个请求一个线程，如果URL特别多，会导致CPU直接拉满。后期会修改线程设置，默认为10，然后可以通过命令行输入来控制线程大小。**
+
 ![](https://cdn.jsdelivr.net/gh/ifonly-go2019/PicGo//images/20201012224014.png)
 
 
